@@ -3,3 +3,4 @@ matplotlib
 numpy
 torch
 torchvision
+git+https://github.com/rtqichen/torchdiffeq.git
