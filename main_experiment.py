@@ -1,6 +1,6 @@
 import sys
 import torch
-from experiments.experiments import run_and_save_experiments
+from anode.experiments.experiments import run_and_save_experiments
 
 device = torch.device('cpu')
 

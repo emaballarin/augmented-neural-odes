@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from anode.models import ODEBlock
+from anode.anode.models import ODEBlock
 from torchdiffeq import odeint, odeint_adjoint
 
 

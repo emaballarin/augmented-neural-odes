@@ -5,12 +5,12 @@ import numpy as np
 import os
 import time
 import torch
-from anode.models import ODENet
-from anode.conv_models import ConvODENet
-from anode.discrete_models import ResNet
-from anode.training import Trainer
-from experiments.dataloaders import mnist, cifar10, tiny_imagenet
-from viz.plots import histories_plt
+from anode.anode.models import ODENet
+from anode.anode.conv_models import ConvODENet
+from anode.anode.discrete_models import ResNet
+from anode.anode.training import Trainer
+from anode.experiments.dataloaders import mnist, cifar10, tiny_imagenet
+from anode.viz.plots import histories_plt
 
 
 def run_and_save_experiments_img(device, path_to_config):

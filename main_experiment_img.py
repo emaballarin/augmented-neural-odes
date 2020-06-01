@@ -1,6 +1,6 @@
 import sys
 import torch
-from experiments.experiments_img import run_and_save_experiments_img
+from anode.experiments.experiments_img import run_and_save_experiments_img
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
