@@ -41,7 +41,7 @@ setup(
     name="anode",
     version="0.0.1",
     author="Emilien Dupont",
-    packages=find_packages(exclude=("tests",)),
+    packages=find_packages(),
     python_requires=">=3.7.0",
     long_description=long_description,
     long_description_content_type="text/markdown",
